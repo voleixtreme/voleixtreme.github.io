@@ -1,9 +1,14 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-	<meta charset="utf-8">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
+<xsl:output method="html" encoding="utf-8" />
+<xsl:template match="/rss">
+	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
+	<html>
+	<head>
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Volei Xtreme Volleyball</title>
+	<title>RSS Feed (Styled)</title>
 
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
@@ -32,13 +37,13 @@
 	<link rel="author" href="https://plus.google.com/u/0/118311555303973066167">
 	
 	
-	<link rel="canonical" href="http://localhost:4000/index.html">
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/rss.xslt">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Volei Xtreme Volleyball">
+	<meta property="og:title" content="RSS Feed (Styled)">
 	<meta property="og:description" content="Volei Xtreme Volleyball">
-	<meta property="og:url" content="http://localhost:4000/index.html">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Volei Xtreme Volleyball">
@@ -51,7 +56,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="phlow">
 	<meta name="twitter:creator" content="phlow">
-	<meta name="twitter:title" content="Volei Xtreme Volleyball">
+	<meta name="twitter:title" content="RSS Feed (Styled)">
 	<meta name="twitter:description" content="Volei Xtreme Volleyball">
 	
 	
@@ -90,10 +95,11 @@
 
 	
 
-</head>
-<body id="top-of-page" class="frontpage">
-	
-	<div id="navigation" class="sticky">
+		]]></xsl:text>
+	</head>
+	<body id="top-of-page">
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		<div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
@@ -171,7 +177,7 @@
 
             
             
-              <li class="active"><a href="http://localhost:4000/">Home</a></li>
+              <li><a href="http://localhost:4000/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -241,19 +247,18 @@
   </nav>
 </div><!-- /#navigation -->
 
-	
+		
 
-	
-
-<div id="masthead">
-	<div class="row">
-		<div class="small-12 columns">
+<!-- <div id="masthead-no-image-header"> -->
+<!-- <div class="row"> -->
+<!-- <div class="small-12 columns"> -->
 			<!-- <a id="logo" href="http://localhost:4000/" title="Volei Xtreme Volleyball – "> -->
 			<!-- <img src="http://localhost:4000/assets/img/logo.png" alt="Volei Xtreme Volleyball – "> -->
 			<!-- </a> -->
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
-</div><!-- /#masthead -->
+<!-- </div>
+	   </div>
+     </div>
+   -->
 
 
 
@@ -262,110 +267,57 @@
 
 
 
+		
 
 
-
-	<div id="header-home">
-    <div class="row">
-        <div class="small-12 columns">
-        </div><!-- /.medium-4.columns -->
-    </div><!-- /.row -->
-</div><!-- /#header-home -->
-
-
-
-<div class="row t60">
-	
-		<div class="medium-4 columns frontpage-widget">
-	
-	
-		<a href="http://localhost:4000/schedule/">
-			
-				
-				
-				
-				
-				<img src="images/calendar-01.jpg" alt="" />
-				
-			
-		</a>
-	
-	<h2 class="font-size-h3 t10">Schedule</h2>
-	<p>Schedule info here...</p>
-	<p><a class="button tiny radius" href="http://localhost:4000/schedule/">More ›</a></p>
-</div>
-	
-
-
-	
-		<div class="medium-4 columns frontpage-widget">
-	
-	
-		<a href="http://localhost:4000/team/">
-			
-				
-				
-				
-				
-				<img src="images/team.jpg" alt="" />
-				
-			
-		</a>
-	
-	<h2 class="font-size-h3 t10">Team</h2>
-	<p>Team info here...</p>
-	<p><a class="button tiny radius" href="http://localhost:4000/team/">More ›</a></p>
-</div>
-	
-
-
-	
-		<div class="medium-4 columns frontpage-widget">
-	
-	
-		<a href="http://localhost:4000/coaches/">
-			
-				
-				
-				
-				
-				<img src="images/coaches.jpg" alt="" />
-				
-			
-		</a>
-	
-	<h2 class="font-size-h3 t10">Coaches</h2>
-	<p>Coaches information here...</p>
-	<p><a class="button tiny radius" href="http://localhost:4000/coaches/">More ›</a></p>
-</div>
-	
-</div><!-- /.row -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-    <div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen=""></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
+<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">RSS feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
 </div>
 
-</div><!-- /.row -->
 
 
-	
-	    <div id="up-to-top" class="row">
+		]]></xsl:text>
+		<header class="t30 row">
+	<p class="subheadline"><xsl:value-of select="channel/description" disable-output-escaping="yes" /></p>
+	<h1>
+		<xsl:element name="a">
+			<xsl:attribute name="href">
+				<xsl:value-of select="channel/link" />
+			</xsl:attribute>
+			<xsl:value-of select="channel/title" disable-output-escaping="yes" />
+		</xsl:element>
+	</h1>
+</header>
+<ul class="accordion row" data-accordion="">
+	<xsl:for-each select="channel/item">
+		<li class="accordion-navigation">
+			<xsl:variable name="slug-id">
+				<xsl:call-template name="slugify">
+					<xsl:with-param name="text" select="guid" />
+				</xsl:call-template>
+			</xsl:variable>
+			<xsl:element name="a">
+				<xsl:attribute name="href"><xsl:value-of select="concat('#', $slug-id)"/></xsl:attribute>
+				<xsl:value-of select="title"/>
+				<br/>
+				<small><xsl:value-of select="pubDate"/></small>
+			</xsl:element>
+			<xsl:element name="div">
+				<xsl:attribute name="id"><xsl:value-of select="$slug-id"/></xsl:attribute>
+				<xsl:attribute name="class">content</xsl:attribute>
+				<h1>
+					<xsl:element name="a">
+						<xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute>
+						<xsl:value-of select="title"/>
+					</xsl:element>
+				</h1>
+				<xsl:value-of select="description" disable-output-escaping="yes" />
+			</xsl:element>
+		</li>
+	</xsl:for-each>
+</ul>
+
+		<xsl:text disable-output-escaping="yes"><![CDATA[
+		    <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
       </div><!-- /.small-12.columns -->
@@ -438,19 +390,12 @@
       </div><!-- /#subfooter -->
     </footer>
 
-	
-
-	
+		
 
 
 <script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
-
-<script>
-    $("#masthead").backstretch("images/vextremelogocopy2.jpg", {fade: 700});
-    $("#masthead-with-text").backstretch("images/vextremelogocopy2.jpg", {fade: 700});
-</script>
 
 
 
@@ -475,6 +420,18 @@
 
 
 
-</body>
-</html>
-
+		]]></xsl:text>
+	</body>
+	</html>
+</xsl:template>
+<xsl:template name="slugify">
+	<xsl:param name="text" select="''" />
+	<xsl:variable name="dodgyChars" select="' ,.#_-!?*:;=+|&amp;/\\'" />
+	<xsl:variable name="replacementChar" select="'-----------------'" />
+	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
+	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
+	<xsl:variable name="lowercased"><xsl:value-of select="translate( $text, $uppercase, $lowercase )" /></xsl:variable>
+	<xsl:variable name="escaped"><xsl:value-of select="translate( $lowercased, $dodgyChars, $replacementChar )" /></xsl:variable>
+	<xsl:value-of select="$escaped" />
+</xsl:template>
+</xsl:stylesheet>
