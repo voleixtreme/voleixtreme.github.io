@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Atom Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://voleixtreme.github.io/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+	<script src="https://voleixtreme.github.io/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -37,13 +37,13 @@
 	<link rel="author" href="https://plus.google.com/u/0/118311555303973066167">
 	
 	
-	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
+	<link rel="canonical" href="https://voleixtreme.github.io/assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="Volei Xtreme Volleyball">
-	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
+	<meta property="og:url" content="https://voleixtreme.github.io/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Volei Xtreme Volleyball">
@@ -61,34 +61,34 @@
 	
 	
 
-	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+	<link type="text/plain" rel="author" href="https://voleixtreme.github.io/humans.txt">
 
 	
 
 	
 
-	<link rel="icon" sizes="32x32" href="http://localhost:4000/assets/img/favicon-32x32.png">
+	<link rel="icon" sizes="32x32" href="https://voleixtreme.github.io/assets/img/favicon-32x32.png">
 
-	<link rel="icon" sizes="192x192" href="http://localhost:4000/assets/img/touch-icon-192x192.png">
+	<link rel="icon" sizes="192x192" href="https://voleixtreme.github.io/assets/img/touch-icon-192x192.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://voleixtreme.github.io/assets/img/apple-touch-icon-180x180-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://voleixtreme.github.io/assets/img/apple-touch-icon-152x152-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://voleixtreme.github.io/assets/img/apple-touch-icon-144x144-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://voleixtreme.github.io/assets/img/apple-touch-icon-120x120-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://voleixtreme.github.io/assets/img/apple-touch-icon-114x114-precomposed.png">
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://voleixtreme.github.io/assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://voleixtreme.github.io/assets/img/apple-touch-icon-72x72-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/assets/img/apple-touch-icon-precomposed.png">	
+	<link rel="apple-touch-icon-precomposed" href="https://voleixtreme.github.io/assets/img/apple-touch-icon-precomposed.png">	
 
-	<meta name="msapplication-TileImage" content="http://localhost:4000/assets/img/msapplication_tileimage.png">
+	<meta name="msapplication-TileImage" content="https://voleixtreme.github.io/assets/img/msapplication_tileimage.png">
 
 	<meta name="msapplication-TileColor" content="#fabb00">
 
@@ -103,7 +103,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Volei Xtreme Volleyball</a></h1>
+      <h1 class="show-for-small-only"><a href="https://voleixtreme.github.io" class="icon-tree"> Volei Xtreme Volleyball</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
@@ -144,7 +144,7 @@
             
             
               <li class="divider"></li>
-              <li><a href="http://localhost:4000/about-us/">About Us</a></li>
+              <li><a href="https://voleixtreme.github.io/about-us/">About Us</a></li>
 
             
             
@@ -158,7 +158,7 @@
             
             
               <li class="divider"></li>
-              <li><a href="http://localhost:4000/contact/">Contact</a></li>
+              <li><a href="https://voleixtreme.github.io/contact/">Contact</a></li>
 
             
             
@@ -177,7 +177,7 @@
 
             
             
-              <li><a href="http://localhost:4000/">Home</a></li>
+              <li><a href="https://voleixtreme.github.io/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -192,7 +192,7 @@
 
             
             
-              <li><a href="http://localhost:4000/schedule/">Schedule</a></li>
+              <li><a href="https://voleixtreme.github.io/schedule/">Schedule</a></li>
               <li class="divider"></li>
 
             
@@ -207,7 +207,7 @@
 
             
             
-              <li><a href="http://localhost:4000/team/">Team</a></li>
+              <li><a href="https://voleixtreme.github.io/team/">Team</a></li>
               <li class="divider"></li>
 
             
@@ -222,7 +222,7 @@
 
             
             
-              <li><a href="http://localhost:4000/coaches/">Coaches</a></li>
+              <li><a href="https://voleixtreme.github.io/coaches/">Coaches</a></li>
               <li class="divider"></li>
 
             
@@ -252,8 +252,8 @@
 <!-- <div id="masthead-no-image-header"> -->
 <!-- <div class="row"> -->
 <!-- <div class="small-12 columns"> -->
-			<!-- <a id="logo" href="http://localhost:4000/" title="Volei Xtreme Volleyball – "> -->
-			<!-- <img src="http://localhost:4000/assets/img/logo.png" alt="Volei Xtreme Volleyball – "> -->
+			<!-- <a id="logo" href="https://voleixtreme.github.io/" title="Volei Xtreme Volleyball – "> -->
+			<!-- <img src="https://voleixtreme.github.io/assets/img/logo.png" alt="Volei Xtreme Volleyball – "> -->
 			<!-- </a> -->
 <!-- </div>
 	   </div>
@@ -332,7 +332,7 @@
 
                <p class="shadow-black">
                Volei Xtreme Volleyball
-               <a href="http://localhost:4000/info/">More ›</a>
+               <a href="https://voleixtreme.github.io/info/">More ›</a>
                </p>
                </div><!-- /.large-6.columns -->
 
@@ -349,12 +349,12 @@
               
                 
                   <li >
-                    <a href="http://localhost:4000"  title=""></a>
+                    <a href="https://voleixtreme.github.io"  title=""></a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                    <a href="https://voleixtreme.github.io/contact/"  title="Contact">Contact</a>
                   </li>
               
               </ul>
@@ -393,7 +393,7 @@
 		
 
 
-<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+<script src="https://voleixtreme.github.io/assets/js/javascript.min.js"></script>
 
 
 
