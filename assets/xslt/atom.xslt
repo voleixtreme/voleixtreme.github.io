@@ -192,7 +192,7 @@
 
             
             
-              <li><a href="https://voleixtreme.github.io/schedule/">2017 Schedule</a></li>
+              <li><a href="https://voleixtreme.github.io/schedule/">Schedule</a></li>
               <li class="divider"></li>
 
             
